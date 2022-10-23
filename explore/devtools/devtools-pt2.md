@@ -1,0 +1,2 @@
+1. The bug was that the inputs were obtained as strings and thus adding two strings together caused string concatenation rather than arithmetic addition. 
+2. I would fix it by casting the inputs as integers and then performic regular arithmetic addition so that they get added together correctly and then cast the result back to a string.
